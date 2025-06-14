@@ -31,15 +31,6 @@ La cuenta que despliega el contrato es el `admin`. Solo el admin puede:
 | `verGanador()`                     | Devuelve el nombre y votos del candidato con más votos |
 | `obtenerCandidato(uint indice)`    | Visualiza nombre y votos de un candidato               |
 
----
-
-## 📁 Estructura del Proyecto
-
-```
-contracts/
-  EleccionConDelegacion.sol
-README.md
-```
 
 ---
 
@@ -50,15 +41,6 @@ README.md
 * Delegaciones no pueden ser circulares
 * Solo el admin controla la configuración
 * Validación de índice de candidatos
-
----
-
-## 🚀 Mejoras Futuras
-
-* Cifrado de votos para privacidad
-* Resultados en tiempo real con eventos
-* Interfaz gráfica en React + Ethers.js
-* Soporte para múltiples elecciones
 
 ---
 
